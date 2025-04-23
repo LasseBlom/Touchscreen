@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+
+<body>
+    <section class="planeter">
+        <div id="merkur">
+            <img class="planetBillede" src="img/merkur.png" alt="merkur">
+            <h1 class="planetOverskrift">Merkur</h1>
+        </div>
+
+        <div id="venus">
+            <img class="planetBillede" src="img/venus.png" alt="venus">
+            <h1 class="planetOverskrift">Venus</h1>
+        </div>
+
+        <div id="jorden">
+            <img class="planetBillede" src="img/jorden.png" alt="jorden">
+            <h1 class="planetOverskrift">Jorden</h1>
+        </div>
+
+        <div id="mars">
+            <img class="planetBillede" src="img/mars.png" alt="mars">
+            <h1 class="planetOverskrift">Mars</h1>
+        </div>
+
+        <div id="jupiter">
+            <img class="planetBillede" src="img/jupiter.png" alt="jupiter">
+            <h1 class="planetOverskrift">Jupiter</h1>
+        </div>    
+  </section>
+
+
+  <div id="planetOverlay" style="display:none;">
+    <div class="overlayContent">
+      <h1 id="planetTitle"></h1>
+      <div class="overlayLayout">
+        <p class="planetText" id="planetTextLeft"></p>
+        <img id="planetImage" src="" alt="Planet billede">
+        <p class="planetText" id="planetTextRight"></p>
+      </div>
+      <button onclick="closeOverlay()">Tilbage til universet</button>
+    </div>
+  </div>
+  
+
+</body>
+</html>
