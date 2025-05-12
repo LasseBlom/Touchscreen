@@ -1,0 +1,6 @@
+Fase 2: Deling og Arbejdsdeling 
+Problemformulering: 
+Besøgende på steno museet ønsker at finde nogle grundlæggende facts, om planeter.
+Med denne løsning kan de besøgende selv interagere og vælge den planet, de ønsker yderligere information / facts omkring.
+
+Ide: Vi ønsker at lave en interaktiv slider, med “billeder” af forskellige planeter. Brugeren får mulighed for at trykke sig ind på en planet - planeten bliver nu større og en “infotekst” kommer frem. Trykker man herefter ud på universet igen, kommer man tilbage til slideren.
